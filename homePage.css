@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.padding{
+  padding: 10px 30px;
+}
+
+.padding_Center{
+  padding: 0px 50px ;
+  background-color: aqua;
+}
+
+.padding_left{
+  padding: 0px 100px ;
+  /* background-color: green;    */
+}
+
+.btn_padding{
+  padding: 2px 60px;
+}
+
+.color{
+  background-color: aqua;
+}
+
+.main{
+  min-height: 93.5vh;
+  overflow: hidden;
+display: flex;
+}
+
+.main1{
+  height: 94.5vh;
+  width: 50%;
+ 
+}
+
+.main1 h3{
+    width: 211px;
+    height: 33px;
+    position: absolute;
+    top: 84px;
+    left: 226px;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.main1 h1{
+  width: 450px;
+    height: 224px;
+    position: absolute;
+    top: 138px;
+    left: 106px;
+    letter-spacing: 3px;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 112px;
+    text-align: center;
+    color:  #FF00CF;
+}
+.main1 h4{
+    width: 507px;
+    height: 50px;
+    position: absolute;
+    top: 384px;
+    margin-left: 90px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+.main1 p{
+  width: 409px;
+  height: 143px;
+  position: absolute;
+  top: 467px;
+  left: 120px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.pink_btn{
+    width: 200px; 
+    height: 36px;
+    position: absolute;
+    top: 635px;
+    left: 239px;
+    background-color: #FF00CF;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.main2{
+  
+  width: 50%;
+  height: 94.5vh;
+
+}
+.inner1-main2{
+  height: 150px;
+  width: 100%;
+  transform: skew(-20deg);
+  position: relative;
+  left: 50px;
+}
+.inner2-main2{
+  height: 550px;
+  width: 100%;
+  transform: skew(-20deg);
+  position: relative;
+  left: 100px;
+}
+.image-box{
+  position: absolute;
+  top: 125px;
+  right: 210px;
+}
